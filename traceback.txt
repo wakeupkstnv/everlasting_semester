@@ -1,0 +1,49 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 22, in script
+    '''
+  File "game/script.rpy", line 22, in script
+    '''
+KeyError: 'name'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\Админ\Downloads\renpy-8.1.3-sdk\renpy\bootstrap.py", line 275, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Админ\Downloads\renpy-8.1.3-sdk\renpy\main.py", line 670, in main
+    run(restart)
+  File "C:\Users\Админ\Downloads\renpy-8.1.3-sdk\renpy\main.py", line 144, in run
+    renpy.execution.run_context(True)
+  File "C:\Users\Админ\Downloads\renpy-8.1.3-sdk\renpy\execution.py", line 955, in run_context
+    context.run()
+  File "game/script.rpy", line 22, in script
+    '''
+  File "/home/tom/ab/renpy-build-fix/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "game/script.rpy", line 22, in script
+    '''
+  File "C:\Users\Админ\Downloads\renpy-8.1.3-sdk\renpy\ast.py", line 930, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\Админ\Downloads\renpy-8.1.3-sdk\renpy\exports.py", line 1474, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Админ\Downloads\renpy-8.1.3-sdk\renpy\character.py", line 1337, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "C:\Users\Админ\Downloads\renpy-8.1.3-sdk\renpy\character.py", line 1251, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "C:\Users\Админ\Downloads\renpy-8.1.3-sdk\renpy\character.py", line 1231, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "C:\Users\Админ\Downloads\renpy-8.1.3-sdk\renpy\substitutions.py", line 278, in substitute
+    s = formatter.vformat(s, (), kwargs) # type: ignore
+  File "/home/tom/ab/renpy-build-fix/tmp/install.linux-x86_64/lib/python3.9/string.py", line 165, in vformat
+  File "/home/tom/ab/renpy-build-fix/tmp/install.linux-x86_64/lib/python3.9/string.py", line 205, in _vformat
+  File "C:\Users\Админ\Downloads\renpy-8.1.3-sdk\renpy\substitutions.py", line 168, in get_field
+    obj, arg_used = super(Formatter, self).get_field(field_name, args, kwargs)
+  File "/home/tom/ab/renpy-build-fix/tmp/install.linux-x86_64/lib/python3.9/string.py", line 270, in get_field
+  File "/home/tom/ab/renpy-build-fix/tmp/install.linux-x86_64/lib/python3.9/string.py", line 227, in get_value
+KeyError: 'name'
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.1.3.23091805
+project v1 1.0
+Mon Oct  2 22:10:53 2023
