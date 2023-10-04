@@ -18,7 +18,7 @@ image closed_Smile_Blush = im.Scale("first girl/Summer Uniform/Aiko_SummerSera_C
 image SummerSera_Frown = im.Scale("first girl/Summer Uniform/Aiko_SummerSera_Frown.png", 500, 950)
 
 # bazarbaeva character images
-image saki_worried = im.Scale("second girl/saki/saki_worried.png", 900, 1450)
+image saki_worried = im.Scale("second girl/saki/saki_worried.png", 900, 1460)
 
 # Игра начинается здесь:
 label start:
