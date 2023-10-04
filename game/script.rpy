@@ -1,9 +1,12 @@
-﻿# Вы можете расположить сценарий своей игры в этом файле.
+﻿"""
+1.Подобрать фотки по теме / по возожмности фоткать КБТУ
+"""
+
+# Вы можете расположить сценарий своей игры в этом файле.
 
 # Определение персонажей игры.
 define dzh = Character('Джанкиева', color="#c8ffc8")
-define bzb = Character('Базарбаева', color="#ff33f6")
-
+define bzb = Character('Базарбаева', color="#ff33f6") # Добавьте некоторых персонажей и найдите им спрайт
 # bg
 image halyk_cowork = im.Scale("bg/kbtu_halyk_cowork.jpg", 1920, 1080)
 image random_bg = im.Scale("More Images/school.png", 1920, 1080)
@@ -20,6 +23,7 @@ image saki_worried = im.Scale("second girl/saki/saki_worried.png", 900, 1450)
 # Игра начинается здесь:
 label start:
 
+    #Обсудите сюжетку с типами, в скором времени добавлю людей в тг группу для обсуждения сюжета
     show closed_smile_girl #at right
     with dissolve
 
