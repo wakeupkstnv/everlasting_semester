@@ -24,6 +24,7 @@ image saki_worried = im.Scale("second girl/saki/saki_worried.png", 900, 1450)
 label start:
 
     #Обсудите сюжетку с типами, в скором времени добавлю людей в тг группу для обсуждения сюжета
+    show halyk_cowork
     show closed_smile_girl #at right
     with dissolve
 
@@ -36,6 +37,7 @@ label start:
     dzh "Ты выглядишь грустным..."
 
     hide SummerSera_Frown
+    hide halyk_cowork
     with dissolve
     u"???" "*Послышался шорох*"
 
