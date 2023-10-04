@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fdc7a0a-a776-4c79-bc07-4a7732d44667" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/cache/bytecode-39.rpyb" beforeDir="false" afterPath="$PROJECT_DIR$/game/cache/bytecode-39.rpyb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/cache/screens.rpyb" beforeDir="false" afterPath="$PROJECT_DIR$/game/cache/screens.rpyb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/cache/shaders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game/cache/shaders.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/saves/auto-1-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-1-LT1.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/saves/auto-10-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-10-LT1.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/saves/auto-2-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-2-LT1.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/saves/auto-3-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-3-LT1.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/saves/auto-4-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-4-LT1.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/saves/auto-5-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-5-LT1.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/saves/auto-6-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-6-LT1.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/saves/auto-7-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-7-LT1.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/saves/auto-8-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-8-LT1.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/saves/auto-9-LT1.save" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/auto-9-LT1.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/saves/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/navigation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/saves/persistent" beforeDir="false" afterPath="$PROJECT_DIR$/game/saves/persistent" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/script.rpy" beforeDir="false" afterPath="$PROJECT_DIR$/game/script.rpy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
