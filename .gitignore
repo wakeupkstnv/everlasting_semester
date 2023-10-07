@@ -1,6 +1,6 @@
 # Default ignored files
 /shelf/
-.idea/workspace.xml
+/workspace.xml
 **/*~
 **/*.rpyc
 **/*.rpymc
