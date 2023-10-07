@@ -20,11 +20,12 @@ image Aiko_ASummerSera_Closed_Frown = im.Scale("first girl/Summer Uniform/Aiko_S
 image Aiko_SummerSera_Closed_Frown_Blush = im.Scale("first girl/Summer Uniform/Aiko_SummerSera_Closed_Frown_Blush", 500, 950)
 image Aiko_SummerSera_Closed_Open = im.Scale("first girl/Summer Uniform/Aiko_SummerSera_Closed_Open.png", 500, 950)
 image Aiko_SummerSera_Closed_Open_Blush = im.Scale("first girl/Summer Uniform/Aiko_SummerSera_Closed_Open_Blush.png", 500, 950)
+image Aiko_SummerSera_Frown = im.Scale("first girl/Summer Uniform/Aiko_SummerSera_Frown.png", 500, 950)
 image Aiko_SummerSera_Frown_Blush = im.Scale("first girl/Summer Uniform/Aiko_SummerSera_Frown_Blush.png", 500, 950)
 image Aiko_SummerSera_Open = im.Scale("first girl/Summer Uniform/Aiko_SummerSera_Open.png", 500, 950)
 image Aiko_SummerSera_Open_Blush = im.Scale("first girl/Summer Uniform/Aiko_SummerSera_Open_Blush.png", 500, 950)
 image Aiko_SummerSera_Smile = im.Scale("first girl/Summer Uniform/Aiko_SummerSera_Smile.png", 500, 950)
-image Aiko_SummerSera_Smile_Blush.png= im.Scale("first girl/Summer Uniform/Aiko_SummerSera_Smile_Blush.png", 500, 950)
+image Aiko_SummerSera_Smile_Blush = im.Scale("first girl/Summer Uniform/Aiko_SummerSera_Smile_Blush.png", 500, 950)
 
 # bazarbaeva character images
 image saki_worried = im.Scale("second girl/saki/saki_worried.png", 900, 1460)
@@ -34,18 +35,18 @@ label start:
 
     #Обсудите сюжетку с типами, в скором времени добавлю людей в тг группу для обсуждения сюжета
     show halyk_cowork
-    show closed_smile_girl #at right
+    show Aiko_closed_smile_girl #at right
     with dissolve
 
 
     dzh "Привет Райымбек-Кун! Как дела?"
 
-    hide closed_smile_girl
-    show SummerSera_Frown
+    hide Aiko_closed_smile_girl
+    show Aiko_SummerSera_Frown
     with dissolve
     dzh "Ты выглядишь грустным..."
 
-    hide SummerSera_Frown
+    hide Aiko_SummerSera_Frown
     hide halyk_cowork
     with dissolve
     u"???" "*Послышался шорох*"
